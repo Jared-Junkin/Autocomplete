@@ -1,0 +1,148 @@
+
+############## Question 1:
+
+Data = threeletterwords.txt
+
+init time: 0.008087	for BruteAutocomplete
+init time: 0.008305	for BinarySearchAutocomplete
+init time: 0.1329	for HashListAutocomplete
+search	size	#match	BruteAutoc	BinarySear	HashListAu
+	17576	50	0.01709990	0.01054680	0.00009640
+	17576	50	0.00152160	0.00636850	0.00001460
+a	676	50	0.00129090	0.00052230	0.00001100
+a	676	50	0.00088680	0.00070310	0.00004520
+b	676	50	0.00094300	0.00044990	0.00001280
+c	676	50	0.00091990	0.00041410	0.00001460
+g	676	50	0.00080580	0.00028680	0.00000840
+ga	26	50	0.00146660	0.00007610	0.00000780
+go	26	50	0.00092730	0.00009680	0.00001000
+gu	26	50	0.00083230	0.00013580	0.00001000
+x	676	50	0.00053260	0.00042150	0.00000960
+y	676	50	0.00064230	0.00057410	0.00001050
+z	676	50	0.00042200	0.00059970	0.00000950
+aa	26	50	0.00039140	0.00011090	0.00000670
+az	26	50	0.00037930	0.00008290	0.00000880
+za	26	50	0.00048650	0.00006770	0.00000840
+zz	26	50	0.00037190	0.00007570	0.00001230
+zqzqwwx	0	50	0.00084860	0.00004060	0.00000270
+size in bytes=246064	 for BruteAutocomplete
+size in bytes=246064	 for BinarySearchAutocomplete
+size in bytes=1092468	 for HashListAutocomplete
+
+Process finished with exit code 0
+
+
+Data = fourletterwords.txt
+
+init time: 0.08458	for BruteAutocomplete
+init time: 0.04279	for BinarySearchAutocomplete
+init time: 1.282	for HashListAutocomplete
+search	size	#match	BruteAutoc	BinarySear	HashListAu
+	456976	50	0.02801940	0.02938770	0.00008310
+	456976	50	0.01169480	0.00366550	0.00000740
+a	17576	50	0.01853450	0.00033170	0.00000670
+a	17576	50	0.01092680	0.00029370	0.00000730
+b	17576	50	0.01293380	0.00027400	0.00000790
+c	17576	50	0.01166810	0.00030700	0.00000940
+g	17576	50	0.00989650	0.00033450	0.00000790
+ga	676	50	0.00987830	0.00012270	0.00000750
+go	676	50	0.00978600	0.00009460	0.00000760
+gu	676	50	0.01070450	0.00009470	0.00000710
+x	17576	50	0.01087430	0.00033430	0.00000810
+y	17576	50	0.01017260	0.00030460	0.00000840
+z	17576	50	0.01000570	0.00027900	0.00000880
+aa	676	50	0.01007190	0.00008070	0.00001620
+az	676	50	0.00984460	0.00009270	0.00000820
+za	676	50	0.01023580	0.00008350	0.00000750
+zz	676	50	0.01003640	0.00008470	0.00000820
+zqzqwwx	0	50	0.01303170	0.00011910	0.00000280
+size in bytes=7311616	 for BruteAutocomplete
+size in bytes=7311616	 for BinarySearchAutocomplete
+size in bytes=40322100	 for HashListAutocomplete
+
+Data = alexa.txt
+
+"C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.1\jbr\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.1\lib\idea_rt.jar=60897:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.1\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\Jared\IdeaProjects\p5-autocomplete-fall19\out\production\P5-Autocomplete;C:\Users\Jared\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Jared\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Jared\.m2\repository\org\junit\jupiter\junit-jupiter\5.4.2\junit-jupiter-5.4.2.jar;C:\Users\Jared\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\Jared\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Jared\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\Jared\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\Jared\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;C:\Users\Jared\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\Jared\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar BenchMarkForAutocomplete
+init time: 0.4017	for BruteAutocomplete
+init time: 1.824	for BinarySearchAutocomplete
+init time: 17.84	for HashListAutocomplete
+search	size	#match	BruteAutoc	BinarySear	HashListAu
+	1000000	50	0.07670400	0.09291590	0.00009790
+	1000000	50	0.02101390	0.03633180	0.00001010
+a	69464	50	0.01901700	0.00193140	0.00000850
+a	69464	50	0.01678040	0.00160940	0.00000710
+b	56037	50	0.01671280	0.00133480	0.00000780
+c	65842	50	0.01859600	0.00156960	0.00000890
+g	37792	50	0.01881950	0.00104230	0.00000810
+ga	6664	50	0.02407040	0.00081660	0.00003460
+go	6953	50	0.03880170	0.00055670	0.00001080
+gu	2782	50	0.04197520	0.00025630	0.00000950
+x	6717	50	0.03785510	0.00058300	0.00001200
+y	16765	50	0.04330630	0.00069800	0.00000890
+z	8780	50	0.04101350	0.00063750	0.00001260
+aa	718	50	0.06061960	0.00048030	0.00015820
+az	889	50	0.04674810	0.00022750	0.00001260
+za	1718	50	0.04754870	0.00029030	0.00001180
+zz	162	50	0.04579420	0.00016100	0.00001400
+zqzqwwx	0	50	0.03838420	0.00013730	0.00000390
+size in bytes=38204230	 for BruteAutocomplete
+size in bytes=38204230	 for BinarySearchAutocomplete
+size in bytes=475893648	 for HashListAutocomplete
+
+Process finished with exit code 0
+
+
+############## Question 2
+#### Data when matches == 10000
+
+init time: 0.4699	for BruteAutocomplete
+init time: 1.713	for BinarySearchAutocomplete
+init time: 9.599	for HashListAutocomplete
+search	size	#match	BruteAutoc	BinarySear	HashListAu
+	1000000	10000	0.03662510	0.06821400	0.00006950
+	1000000	10000	0.03666390	0.05996940	0.00001260
+a	69464	10000	0.03255200	0.01980430	0.00001090
+a	69464	10000	0.02008300	0.01952900	0.00001140
+b	56037	10000	0.01956570	0.01849880	0.00000970
+c	65842	10000	0.01955770	0.02049050	0.00001030
+g	37792	10000	0.01851090	0.01910370	0.00001430
+ga	6664	10000	0.01774680	0.00398450	0.00000820
+go	6953	10000	0.01695650	0.00396330	0.00000780
+gu	2782	10000	0.01396330	0.00142700	0.00000780
+x	6717	10000	0.01620660	0.00385040	0.00000780
+y	16765	10000	0.02057380	0.00950980	0.00001010
+z	8780	10000	0.01800200	0.00518010	0.00000800
+aa	718	10000	0.01657240	0.00034200	0.00001470
+az	889	10000	0.01408870	0.00043950	0.00000860
+za	1718	10000	0.01374380	0.00114350	0.00000980
+zz	162	10000	0.01464370	0.00013450	0.00000870
+zqzqwwx	0	10000	0.01580630	0.00011130	0.00000300
+size in bytes=38204230	 for BruteAutocomplete
+size in bytes=38204230	 for BinarySearchAutocomplete
+size in bytes=475893648	 for HashListAutocomplete
+
+Process finished with exit code 0
+
+Interestingly, the number of matches seemed to have absolutely no effect on the runtime.
+Running alexa.txt with matches = 50 had more or less the same runtime as with matches = 10000.
+This suggests that the runtime is independent of the number of matches, and depends only on the
+legnth of the words the program needs to parse through.
+
+
+############## Question 3
+
+Explain why the last for loop in BruteAutocomplete.topMatches uses a LinkedList
+(and not an ArrayList) AND why the PriorityQueue uses Comparator.comparing(Term::getWeight) to get the top k heaviest matches.
+
+The PriorityQueue uses Comparator.comparing(Term::getWeight) to get the top k heaviest matches because a PriorityQueue is a
+highly efficient way of maintaining a sorted set of data. PriorityQueues do have a default method of sorting, but it is
+generally good practice to write a custom sorting method, using a comparator, to ensure that the queue's sort order is maintained
+exactly the way we want it. We used a linked list to return the data because LinkedLists are more memory-efficient than Arraylists are.
+
+############## Question 4
+
+The hashlist uses more memory than the other autocomplete functions because, in order for a hashlist to run in O(1) time, it must
+have an exhaustive dictionary of every possible term combination to search through. In other words, the hashlist stores every possible
+substring combination simultaneously, so that it may access them instantaneously. It has sacrificied its memory-efficiency in exchange for speed.
+
+
